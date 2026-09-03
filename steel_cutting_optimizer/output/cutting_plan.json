@@ -1,0 +1,849 @@
+{
+  "summary": {
+    "total_stock_used": 27,
+    "total_scrap_mm": 12441.0,
+    "scrap_by_stock_type": {
+      "S6000": 12441.0
+    },
+    "used_mm": 148564.0,
+    "stock_mm_used": 162000.0,
+    "used_percent": 91.71
+  },
+  "cuts": [
+    {
+      "stock_instance_id": "S6000-#001",
+      "stock_type_id": "S6000",
+      "segments": [
+        {
+          "segment_id": "SEG-0001",
+          "length_mm": 2200.0,
+          "source": "stock",
+          "used_by_component": "fc79"
+        },
+        {
+          "segment_id": "SEG-0003",
+          "length_mm": 3600.0,
+          "source": "remnant",
+          "used_by_component": "fc65"
+        }
+      ],
+      "remnant_mm": 200.0,
+      "remnant_reused_as": "fc65"
+    },
+    {
+      "stock_instance_id": "S6000-#002",
+      "stock_type_id": "S6000",
+      "segments": [
+        {
+          "segment_id": "SEG-0002",
+          "length_mm": 4894.0,
+          "source": "stock",
+          "used_by_component": "fc79"
+        },
+        {
+          "segment_id": "SEG-0025",
+          "length_mm": 1000.0,
+          "source": "remnant",
+          "used_by_component": "fc344"
+        }
+      ],
+      "remnant_mm": 0.0,
+      "remnant_reused_as": "fc344"
+    },
+    {
+      "stock_instance_id": "S6000-#003",
+      "stock_type_id": "S6000",
+      "segments": [
+        {
+          "segment_id": "SEG-0004",
+          "length_mm": 3707.0,
+          "source": "stock",
+          "used_by_component": "fc65"
+        },
+        {
+          "segment_id": "SEG-0009",
+          "length_mm": 2200.0,
+          "source": "remnant",
+          "used_by_component": "fc61"
+        }
+      ],
+      "remnant_mm": 0.0,
+      "remnant_reused_as": "fc61"
+    },
+    {
+      "stock_instance_id": "S6000-#004",
+      "stock_type_id": "S6000",
+      "segments": [
+        {
+          "segment_id": "SEG-0005",
+          "length_mm": 2300.0,
+          "source": "stock",
+          "used_by_component": "fc66"
+        },
+        {
+          "segment_id": "SEG-0007",
+          "length_mm": 3400.0,
+          "source": "remnant",
+          "used_by_component": "fc79"
+        }
+      ],
+      "remnant_mm": 300.0,
+      "remnant_reused_as": "fc79"
+    },
+    {
+      "stock_instance_id": "S6000-#005",
+      "stock_type_id": "S6000",
+      "segments": [
+        {
+          "segment_id": "SEG-0006",
+          "length_mm": 5040.0,
+          "source": "stock",
+          "used_by_component": "fc66"
+        }
+      ],
+      "remnant_mm": 960.0,
+      "remnant_reused_as": null
+    },
+    {
+      "stock_instance_id": "S6000-#006",
+      "stock_type_id": "S6000",
+      "segments": [
+        {
+          "segment_id": "SEG-0008",
+          "length_mm": 3694.0,
+          "source": "stock",
+          "used_by_component": "fc79"
+        },
+        {
+          "segment_id": "SEG-0011",
+          "length_mm": 2200.0,
+          "source": "remnant",
+          "used_by_component": "fc65"
+        }
+      ],
+      "remnant_mm": 0.0,
+      "remnant_reused_as": "fc65"
+    },
+    {
+      "stock_instance_id": "S6000-#007",
+      "stock_type_id": "S6000",
+      "segments": [
+        {
+          "segment_id": "SEG-0010",
+          "length_mm": 5102.0,
+          "source": "stock",
+          "used_by_component": "fc61"
+        }
+      ],
+      "remnant_mm": 898.0,
+      "remnant_reused_as": null
+    },
+    {
+      "stock_instance_id": "S6000-#008",
+      "stock_type_id": "S6000",
+      "segments": [
+        {
+          "segment_id": "SEG-0012",
+          "length_mm": 5107.0,
+          "source": "stock",
+          "used_by_component": "fc65"
+        },
+        {
+          "segment_id": "SEG-0031",
+          "length_mm": 700.0,
+          "source": "remnant",
+          "used_by_component": "fc344"
+        }
+      ],
+      "remnant_mm": 0.0,
+      "remnant_reused_as": "fc344"
+    },
+    {
+      "stock_instance_id": "S6000-#009",
+      "stock_type_id": "S6000",
+      "segments": [
+        {
+          "segment_id": "SEG-0013",
+          "length_mm": 2200.0,
+          "source": "stock",
+          "used_by_component": "fc79"
+        },
+        {
+          "segment_id": "SEG-0015",
+          "length_mm": 3300.0,
+          "source": "remnant",
+          "used_by_component": "fc83"
+        }
+      ],
+      "remnant_mm": 500.0,
+      "remnant_reused_as": "fc83"
+    },
+    {
+      "stock_instance_id": "S6000-#010",
+      "stock_type_id": "S6000",
+      "segments": [
+        {
+          "segment_id": "SEG-0014",
+          "length_mm": 4894.0,
+          "source": "stock",
+          "used_by_component": "fc79"
+        },
+        {
+          "segment_id": "SEG-0026",
+          "length_mm": 1066.0,
+          "source": "remnant",
+          "used_by_component": "fc344"
+        }
+      ],
+      "remnant_mm": 0.0,
+      "remnant_reused_as": "fc344"
+    },
+    {
+      "stock_instance_id": "S6000-#011",
+      "stock_type_id": "S6000",
+      "segments": [
+        {
+          "segment_id": "SEG-0016",
+          "length_mm": 3765.0,
+          "source": "stock",
+          "used_by_component": "fc83"
+        },
+        {
+          "segment_id": "SEG-0017",
+          "length_mm": 2200.0,
+          "source": "remnant",
+          "used_by_component": "fc61"
+        }
+      ],
+      "remnant_mm": 0.0,
+      "remnant_reused_as": "fc61"
+    },
+    {
+      "stock_instance_id": "S6000-#012",
+      "stock_type_id": "S6000",
+      "segments": [
+        {
+          "segment_id": "SEG-0018",
+          "length_mm": 5102.0,
+          "source": "stock",
+          "used_by_component": "fc61"
+        }
+      ],
+      "remnant_mm": 898.0,
+      "remnant_reused_as": null
+    },
+    {
+      "stock_instance_id": "S6000-#013",
+      "stock_type_id": "S6000",
+      "segments": [
+        {
+          "segment_id": "SEG-0019",
+          "length_mm": 2200.0,
+          "source": "stock",
+          "used_by_component": "fc61"
+        },
+        {
+          "segment_id": "SEG-0021",
+          "length_mm": 3600.0,
+          "source": "remnant",
+          "used_by_component": "fc66"
+        }
+      ],
+      "remnant_mm": 200.0,
+      "remnant_reused_as": "fc66"
+    },
+    {
+      "stock_instance_id": "S6000-#014",
+      "stock_type_id": "S6000",
+      "segments": [
+        {
+          "segment_id": "SEG-0020",
+          "length_mm": 5102.0,
+          "source": "stock",
+          "used_by_component": "fc61"
+        }
+      ],
+      "remnant_mm": 898.0,
+      "remnant_reused_as": null
+    },
+    {
+      "stock_instance_id": "S6000-#015",
+      "stock_type_id": "S6000",
+      "segments": [
+        {
+          "segment_id": "SEG-0022",
+          "length_mm": 3740.0,
+          "source": "stock",
+          "used_by_component": "fc66"
+        },
+        {
+          "segment_id": "SEG-0023",
+          "length_mm": 2200.0,
+          "source": "remnant",
+          "used_by_component": "fc61"
+        }
+      ],
+      "remnant_mm": 0.0,
+      "remnant_reused_as": "fc61"
+    },
+    {
+      "stock_instance_id": "S6000-#016",
+      "stock_type_id": "S6000",
+      "segments": [
+        {
+          "segment_id": "SEG-0024",
+          "length_mm": 5102.0,
+          "source": "stock",
+          "used_by_component": "fc61"
+        }
+      ],
+      "remnant_mm": 898.0,
+      "remnant_reused_as": null
+    },
+    {
+      "stock_instance_id": "S6000-#017",
+      "stock_type_id": "S6000",
+      "segments": [
+        {
+          "segment_id": "SEG-0027",
+          "length_mm": 2300.0,
+          "source": "stock",
+          "used_by_component": "fc66"
+        },
+        {
+          "segment_id": "SEG-0029",
+          "length_mm": 2200.0,
+          "source": "remnant",
+          "used_by_component": "fc65"
+        },
+        {
+          "segment_id": "SEG-0032",
+          "length_mm": 1366.0,
+          "source": "remnant",
+          "used_by_component": "fc344"
+        }
+      ],
+      "remnant_mm": 0.0,
+      "remnant_reused_as": "fc344"
+    },
+    {
+      "stock_instance_id": "S6000-#018",
+      "stock_type_id": "S6000",
+      "segments": [
+        {
+          "segment_id": "SEG-0028",
+          "length_mm": 5040.0,
+          "source": "stock",
+          "used_by_component": "fc66"
+        }
+      ],
+      "remnant_mm": 960.0,
+      "remnant_reused_as": null
+    },
+    {
+      "stock_instance_id": "S6000-#019",
+      "stock_type_id": "S6000",
+      "segments": [
+        {
+          "segment_id": "SEG-0030",
+          "length_mm": 5107.0,
+          "source": "stock",
+          "used_by_component": "fc65"
+        }
+      ],
+      "remnant_mm": 893.0,
+      "remnant_reused_as": null
+    },
+    {
+      "stock_instance_id": "S6000-#020",
+      "stock_type_id": "S6000",
+      "segments": [
+        {
+          "segment_id": "SEG-0033",
+          "length_mm": 2300.0,
+          "source": "stock",
+          "used_by_component": "fc66"
+        },
+        {
+          "segment_id": "SEG-0035",
+          "length_mm": 3400.0,
+          "source": "remnant",
+          "used_by_component": "fc93"
+        }
+      ],
+      "remnant_mm": 300.0,
+      "remnant_reused_as": "fc93"
+    },
+    {
+      "stock_instance_id": "S6000-#021",
+      "stock_type_id": "S6000",
+      "segments": [
+        {
+          "segment_id": "SEG-0034",
+          "length_mm": 5040.0,
+          "source": "stock",
+          "used_by_component": "fc66"
+        }
+      ],
+      "remnant_mm": 960.0,
+      "remnant_reused_as": null
+    },
+    {
+      "stock_instance_id": "S6000-#022",
+      "stock_type_id": "S6000",
+      "segments": [
+        {
+          "segment_id": "SEG-0036",
+          "length_mm": 3665.0,
+          "source": "stock",
+          "used_by_component": "fc93"
+        },
+        {
+          "segment_id": "SEG-0037",
+          "length_mm": 2200.0,
+          "source": "remnant",
+          "used_by_component": "fc79"
+        }
+      ],
+      "remnant_mm": 0.0,
+      "remnant_reused_as": "fc79"
+    },
+    {
+      "stock_instance_id": "S6000-#023",
+      "stock_type_id": "S6000",
+      "segments": [
+        {
+          "segment_id": "SEG-0038",
+          "length_mm": 4894.0,
+          "source": "stock",
+          "used_by_component": "fc79"
+        }
+      ],
+      "remnant_mm": 1106.0,
+      "remnant_reused_as": null
+    },
+    {
+      "stock_instance_id": "S6000-#024",
+      "stock_type_id": "S6000",
+      "segments": [
+        {
+          "segment_id": "SEG-0039",
+          "length_mm": 2200.0,
+          "source": "stock",
+          "used_by_component": "fc83"
+        },
+        {
+          "segment_id": "SEG-0041",
+          "length_mm": 3600.0,
+          "source": "remnant",
+          "used_by_component": "fc65"
+        }
+      ],
+      "remnant_mm": 200.0,
+      "remnant_reused_as": "fc65"
+    },
+    {
+      "stock_instance_id": "S6000-#025",
+      "stock_type_id": "S6000",
+      "segments": [
+        {
+          "segment_id": "SEG-0040",
+          "length_mm": 4865.0,
+          "source": "stock",
+          "used_by_component": "fc83"
+        }
+      ],
+      "remnant_mm": 1135.0,
+      "remnant_reused_as": null
+    },
+    {
+      "stock_instance_id": "S6000-#026",
+      "stock_type_id": "S6000",
+      "segments": [
+        {
+          "segment_id": "SEG-0042",
+          "length_mm": 3707.0,
+          "source": "stock",
+          "used_by_component": "fc65"
+        },
+        {
+          "segment_id": "SEG-0043",
+          "length_mm": 2200.0,
+          "source": "remnant",
+          "used_by_component": "fc83"
+        }
+      ],
+      "remnant_mm": 0.0,
+      "remnant_reused_as": "fc83"
+    },
+    {
+      "stock_instance_id": "S6000-#027",
+      "stock_type_id": "S6000",
+      "segments": [
+        {
+          "segment_id": "SEG-0044",
+          "length_mm": 4865.0,
+          "source": "stock",
+          "used_by_component": "fc83"
+        }
+      ],
+      "remnant_mm": 1135.0,
+      "remnant_reused_as": null
+    }
+  ],
+  "assemblies": [
+    {
+      "component_id": "fc79",
+      "instance_no": 3,
+      "target_length_mm": 7094.0,
+      "segment_a": {
+        "segment_id": "SEG-0001",
+        "length_mm": 2200.0,
+        "from": "S6000-#001"
+      },
+      "segment_b": {
+        "segment_id": "SEG-0002",
+        "length_mm": 4894.0,
+        "from": "S6000-#002"
+      },
+      "joint": "tăng đơ"
+    },
+    {
+      "component_id": "fc65",
+      "instance_no": 3,
+      "target_length_mm": 7307.0,
+      "segment_a": {
+        "segment_id": "SEG-0003",
+        "length_mm": 3600.0,
+        "from": "S6000-#001"
+      },
+      "segment_b": {
+        "segment_id": "SEG-0004",
+        "length_mm": 3707.0,
+        "from": "S6000-#003"
+      },
+      "joint": "tăng đơ"
+    },
+    {
+      "component_id": "fc66",
+      "instance_no": 1,
+      "target_length_mm": 7340.0,
+      "segment_a": {
+        "segment_id": "SEG-0005",
+        "length_mm": 2300.0,
+        "from": "S6000-#004"
+      },
+      "segment_b": {
+        "segment_id": "SEG-0006",
+        "length_mm": 5040.0,
+        "from": "S6000-#005"
+      },
+      "joint": "tăng đơ"
+    },
+    {
+      "component_id": "fc79",
+      "instance_no": 2,
+      "target_length_mm": 7094.0,
+      "segment_a": {
+        "segment_id": "SEG-0007",
+        "length_mm": 3400.0,
+        "from": "S6000-#004"
+      },
+      "segment_b": {
+        "segment_id": "SEG-0008",
+        "length_mm": 3694.0,
+        "from": "S6000-#006"
+      },
+      "joint": "tăng đơ"
+    },
+    {
+      "component_id": "fc61",
+      "instance_no": 4,
+      "target_length_mm": 7302.0,
+      "segment_a": {
+        "segment_id": "SEG-0009",
+        "length_mm": 2200.0,
+        "from": "S6000-#003"
+      },
+      "segment_b": {
+        "segment_id": "SEG-0010",
+        "length_mm": 5102.0,
+        "from": "S6000-#007"
+      },
+      "joint": "tăng đơ"
+    },
+    {
+      "component_id": "fc65",
+      "instance_no": 4,
+      "target_length_mm": 7307.0,
+      "segment_a": {
+        "segment_id": "SEG-0011",
+        "length_mm": 2200.0,
+        "from": "S6000-#006"
+      },
+      "segment_b": {
+        "segment_id": "SEG-0012",
+        "length_mm": 5107.0,
+        "from": "S6000-#008"
+      },
+      "joint": "tăng đơ"
+    },
+    {
+      "component_id": "fc79",
+      "instance_no": 4,
+      "target_length_mm": 7094.0,
+      "segment_a": {
+        "segment_id": "SEG-0013",
+        "length_mm": 2200.0,
+        "from": "S6000-#009"
+      },
+      "segment_b": {
+        "segment_id": "SEG-0014",
+        "length_mm": 4894.0,
+        "from": "S6000-#010"
+      },
+      "joint": "tăng đơ"
+    },
+    {
+      "component_id": "fc83",
+      "instance_no": 1,
+      "target_length_mm": 7065.0,
+      "segment_a": {
+        "segment_id": "SEG-0015",
+        "length_mm": 3300.0,
+        "from": "S6000-#009"
+      },
+      "segment_b": {
+        "segment_id": "SEG-0016",
+        "length_mm": 3765.0,
+        "from": "S6000-#011"
+      },
+      "joint": "tăng đơ"
+    },
+    {
+      "component_id": "fc61",
+      "instance_no": 1,
+      "target_length_mm": 7302.0,
+      "segment_a": {
+        "segment_id": "SEG-0017",
+        "length_mm": 2200.0,
+        "from": "S6000-#011"
+      },
+      "segment_b": {
+        "segment_id": "SEG-0018",
+        "length_mm": 5102.0,
+        "from": "S6000-#012"
+      },
+      "joint": "tăng đơ"
+    },
+    {
+      "component_id": "fc61",
+      "instance_no": 2,
+      "target_length_mm": 7302.0,
+      "segment_a": {
+        "segment_id": "SEG-0019",
+        "length_mm": 2200.0,
+        "from": "S6000-#013"
+      },
+      "segment_b": {
+        "segment_id": "SEG-0020",
+        "length_mm": 5102.0,
+        "from": "S6000-#014"
+      },
+      "joint": "tăng đơ"
+    },
+    {
+      "component_id": "fc66",
+      "instance_no": 3,
+      "target_length_mm": 7340.0,
+      "segment_a": {
+        "segment_id": "SEG-0021",
+        "length_mm": 3600.0,
+        "from": "S6000-#013"
+      },
+      "segment_b": {
+        "segment_id": "SEG-0022",
+        "length_mm": 3740.0,
+        "from": "S6000-#015"
+      },
+      "joint": "tăng đơ"
+    },
+    {
+      "component_id": "fc61",
+      "instance_no": 3,
+      "target_length_mm": 7302.0,
+      "segment_a": {
+        "segment_id": "SEG-0023",
+        "length_mm": 2200.0,
+        "from": "S6000-#015"
+      },
+      "segment_b": {
+        "segment_id": "SEG-0024",
+        "length_mm": 5102.0,
+        "from": "S6000-#016"
+      },
+      "joint": "tăng đơ"
+    },
+    {
+      "component_id": "fc344",
+      "instance_no": 1,
+      "target_length_mm": 2066.0,
+      "segment_a": {
+        "segment_id": "SEG-0025",
+        "length_mm": 1000.0,
+        "from": "S6000-#002"
+      },
+      "segment_b": {
+        "segment_id": "SEG-0026",
+        "length_mm": 1066.0,
+        "from": "S6000-#010"
+      },
+      "joint": "tăng đơ"
+    },
+    {
+      "component_id": "fc66",
+      "instance_no": 4,
+      "target_length_mm": 7340.0,
+      "segment_a": {
+        "segment_id": "SEG-0027",
+        "length_mm": 2300.0,
+        "from": "S6000-#017"
+      },
+      "segment_b": {
+        "segment_id": "SEG-0028",
+        "length_mm": 5040.0,
+        "from": "S6000-#018"
+      },
+      "joint": "tăng đơ"
+    },
+    {
+      "component_id": "fc65",
+      "instance_no": 1,
+      "target_length_mm": 7307.0,
+      "segment_a": {
+        "segment_id": "SEG-0029",
+        "length_mm": 2200.0,
+        "from": "S6000-#017"
+      },
+      "segment_b": {
+        "segment_id": "SEG-0030",
+        "length_mm": 5107.0,
+        "from": "S6000-#019"
+      },
+      "joint": "tăng đơ"
+    },
+    {
+      "component_id": "fc344",
+      "instance_no": 2,
+      "target_length_mm": 2066.0,
+      "segment_a": {
+        "segment_id": "SEG-0031",
+        "length_mm": 700.0,
+        "from": "S6000-#008"
+      },
+      "segment_b": {
+        "segment_id": "SEG-0032",
+        "length_mm": 1366.0,
+        "from": "S6000-#017"
+      },
+      "joint": "tăng đơ"
+    },
+    {
+      "component_id": "fc66",
+      "instance_no": 2,
+      "target_length_mm": 7340.0,
+      "segment_a": {
+        "segment_id": "SEG-0033",
+        "length_mm": 2300.0,
+        "from": "S6000-#020"
+      },
+      "segment_b": {
+        "segment_id": "SEG-0034",
+        "length_mm": 5040.0,
+        "from": "S6000-#021"
+      },
+      "joint": "tăng đơ"
+    },
+    {
+      "component_id": "fc93",
+      "instance_no": 1,
+      "target_length_mm": 7065.0,
+      "segment_a": {
+        "segment_id": "SEG-0035",
+        "length_mm": 3400.0,
+        "from": "S6000-#020"
+      },
+      "segment_b": {
+        "segment_id": "SEG-0036",
+        "length_mm": 3665.0,
+        "from": "S6000-#022"
+      },
+      "joint": "tăng đơ"
+    },
+    {
+      "component_id": "fc79",
+      "instance_no": 1,
+      "target_length_mm": 7094.0,
+      "segment_a": {
+        "segment_id": "SEG-0037",
+        "length_mm": 2200.0,
+        "from": "S6000-#022"
+      },
+      "segment_b": {
+        "segment_id": "SEG-0038",
+        "length_mm": 4894.0,
+        "from": "S6000-#023"
+      },
+      "joint": "tăng đơ"
+    },
+    {
+      "component_id": "fc83",
+      "instance_no": 3,
+      "target_length_mm": 7065.0,
+      "segment_a": {
+        "segment_id": "SEG-0039",
+        "length_mm": 2200.0,
+        "from": "S6000-#024"
+      },
+      "segment_b": {
+        "segment_id": "SEG-0040",
+        "length_mm": 4865.0,
+        "from": "S6000-#025"
+      },
+      "joint": "tăng đơ"
+    },
+    {
+      "component_id": "fc65",
+      "instance_no": 2,
+      "target_length_mm": 7307.0,
+      "segment_a": {
+        "segment_id": "SEG-0041",
+        "length_mm": 3600.0,
+        "from": "S6000-#024"
+      },
+      "segment_b": {
+        "segment_id": "SEG-0042",
+        "length_mm": 3707.0,
+        "from": "S6000-#026"
+      },
+      "joint": "tăng đơ"
+    },
+    {
+      "component_id": "fc83",
+      "instance_no": 2,
+      "target_length_mm": 7065.0,
+      "segment_a": {
+        "segment_id": "SEG-0043",
+        "length_mm": 2200.0,
+        "from": "S6000-#026"
+      },
+      "segment_b": {
+        "segment_id": "SEG-0044",
+        "length_mm": 4865.0,
+        "from": "S6000-#027"
+      },
+      "joint": "tăng đơ"
+    }
+  ],
+  "warnings": []
+}
