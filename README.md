@@ -1,4 +1,4 @@
-# 1d-Optimizer — Tối ưu cắt & nối thép hình/thành
+# 1d-Optimizer — Tối ưu cắt & nối thép hình
 
 Công cụ tính toán cắt thép nguyên liệu thành các đoạn, nối thành cấu kiện sao
 cho **dùng ít cây nhất, phế liệu ít nhất**, tuân thủ ràng buột kỹ thuật mối nối.
